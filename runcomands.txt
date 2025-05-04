@@ -1,0 +1,11 @@
+mpirun -np 2 --hostfile hosts.txt ./sssp_update
+
+export OMP_NUM_THREADS=4
+mpirun -np 2 --hostfile hosts.txt ./sssp_update
+
+
+python3 plot_results.py
+
+
+
+mpicxx -fopenmp -o sssp_update sssp_update.cpp -I/usr/local/include -L/usr/local/lib -lmetis
