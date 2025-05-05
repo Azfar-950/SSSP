@@ -1,0 +1,6 @@
+mpicc dynamic_sssp_mpi_omp.c -o dynamic_sssp_mpi_omp \
+      -I/path/to/metis/include -L/path/to/metis/lib -lmetis \
+      -fopenmp -lm -std=c11
+mpirun -np 2 --host vm-server,vm-client ./dynamic_sssp_mpi_omp graph.txt changes.txt 0
+
+vm-server,vm-client
