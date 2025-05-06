@@ -1,0 +1,9 @@
+mpirun -np 2 ./f changes.txt 1
+
+OMP_NUM_THREADS=4 mpirun -np 2 ./f changes.txt 1
+
+mpicxx -fopenmp -o f f.cpp
+
+g++ -o partition partition.cpp -lmetis
+
+./partition
