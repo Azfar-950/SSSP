@@ -1,0 +1,16 @@
+MPI Processes: 2, OpenMP Threads: 2, Execution Time (s): 0.113062
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 0.26173
+MPI Processes: 2, OpenMP Threads: 6, Execution Time (s): 0.162084
+MPI Processes: 2, OpenMP Threads: 8, Execution Time (s): 0.244739
+MPI Processes: 2, OpenMP Threads: 10, Execution Time (s): 0.213903
+MPI Processes: 3, OpenMP Threads: 2, Execution Time (s): 0.199244
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 0.185275
+MPI Processes: 3, OpenMP Threads: 6, Execution Time (s): 0.0879566
+MPI Processes: 3, OpenMP Threads: 6, Execution Time (s): 0.181145
+MPI Processes: 3, OpenMP Threads: 8, Execution Time (s): 0.127635
+MPI Processes: 3, OpenMP Threads: 10, Execution Time (s): 0.0885905
+MPI Processes: 4, OpenMP Threads: 10, Execution Time (s): 0.221048
+MPI Processes: 4, OpenMP Threads: 2, Execution Time (s): 0.0910875
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 0.168821
+MPI Processes: 4, OpenMP Threads: 6, Execution Time (s): 0.19326
+MPI Processes: 4, OpenMP Threads: 8, Execution Time (s): 0.0887353
