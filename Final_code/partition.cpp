@@ -103,7 +103,7 @@ int main() {
 
     idx_t nvtxs = xadj.size() - 1;
     idx_t ncon = 1;
-    idx_t nparts = 4; // Adjust based on desired partitions
+    idx_t nparts = 3; // Adjust based on desired partitions
     std::vector<idx_t> part(nvtxs);
     idx_t objval;
 
