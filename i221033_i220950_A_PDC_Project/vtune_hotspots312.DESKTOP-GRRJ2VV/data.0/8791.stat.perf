@@ -1,0 +1,29 @@
+# AMPLXE_PERF_STAT
+# hostname : DESKTOP-GRRJ2VV
+# os release : 5.15.167.4-microsoft-standard-WSL2
+# arch : x86_64
+# cpuid : GenuineIntel,6,142,12
+# cpudesc : Intel(R) Core(TM) i7-10610U CPU @ 1.80GHz
+# total memory : 8019992 kB
+# nrcpus online : 8
+# nrcpus avail : 8
+# sibling cores : 0-7
+# sibling threads : 0-1
+# sibling threads : 2-3
+# sibling threads : 4-5
+# sibling threads : 6-7
+# process id : 8791
+;;40774581779;0
+;;32006200608;1
+;;47359197881;2
+;;330892631;3
+;;17293890;4
+;;1562;5
+;;13;6
+;;26;7
+;;1089387;8
+;;13;9
+;;5;10
+;;569335;11
+;;52331007177;12
+;;62764801184;13

@@ -1,0 +1,503 @@
+4 [139664248155264] INFO perfrun.launcher <> - Launcher main begin
+4 [139664248155264] INFO perfrun.launcher <> - MessageCatalogInit finished
+4 [139664248155264] INFO perfrun.launcher <> - Launcher instance created
+5 [139664248155264] INFO perfrun.launcher <> - argc = 7; cmdline = /opt/intel/oneapi/vtune/2025.3/bin64/amplxe-runss --ui-output-format xml --ui-output-fd 5 --option-file /mnt/d/Semester 6/pdc/pdc_project/i221033_i220950_A_PDC_Project/vtune_hotspots416.DESKTOP-GRRJ2VV/config/runss.options.1 
+41 [139664248155264] INFO perfrun.perfcollector <> - SEP tool path: /opt/intel/oneapi/vtune/2025.3/bin64/sep
+60 [139664248155264] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+61 [139664248155264] INFO perfrun.launcher <> - create file finder object
+62 [139664248155264] INFO perfrun.launcher <> - create a result directory: pattern = /mnt/d/Semester 6/pdc/pdc_project/i221033_i220950_A_PDC_Project/vtune_hotspots416.DESKTOP-GRRJ2VV pid = 4294967295
+72 [139664248155264] INFO perfrun.sdk <> - checked that the directory /mnt/d/Semester 6/pdc/pdc_project/i221033_i220950_A_PDC_Project/vtune_hotspots416.DESKTOP-GRRJ2VV is a local directory
+73 [139664248155264] INFO perfrun.sdk <> - the directory /mnt/d/Semester 6/pdc/pdc_project/i221033_i220950_A_PDC_Project/vtune_hotspots416.DESKTOP-GRRJ2VV is located on a share or its FS ID is unknown 16914839
+73 [139664248155264] INFO perfrun.sdk <> - checked that the directory /tmp/amplxe-tmp-azfar is a local directory
+73 [139664248155264] INFO perfrun.sdk <> - the directory /tmp/amplxe-tmp-azfar is a local directory with FS type ID 61267
+74 [139664248155264] INFO perfrun.launcher <> - Create a local result directory /tmp/amplxe-tmp-azfar/amplxe-res-8103-25348303793181 due to the user result path /mnt/d/Semester 6/pdc/pdc_project/i221033_i220950_A_PDC_Project/vtune_hotspots416.DESKTOP-GRRJ2VV is located on a share
+75 [139664248155264] INFO perfrun.launcher <> - create data directory = /tmp/amplxe-tmp-azfar/amplxe-res-8103-25348303793181/data.0
+76 [139664248155264] INFO perfrun.launcher <> - create data directory = /mnt/d/Semester 6/pdc/pdc_project/i221033_i220950_A_PDC_Project/vtune_hotspots416.DESKTOP-GRRJ2VV/data.0
+79 [139664248155264] INFO perfrun.launcher <> - Creating the master collection flag
+83 [139664248155264] INFO perfrun.launcher <> - Done creating the master collection flag
+84 [139664092554944] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+84 [139664092554944] INFO perfrun.sdk <> - Allocating TMU :/tmp/amplxe-tmp-azfar/amplxe-res-8103-25348303793181/data.0/systemcollector-8103-DESKTOP-GRRJ2VV.sc
+85 [139664092554944] INFO perfrun.system <> - Tpss based collection
+87 [139664092554944] INFO perfrun.launcher <> - plugin [ptracecollector] was disabled because it doesn't support the given collection type.
+88 [139664092554944] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+89 [139664092554944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+89 [139664092554944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+90 [139664092554944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+90 [139664092554944] INFO perfrun.mrte <> - system-wide mode is 0
+91 [139664092554944] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+103 [139664092554944] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/tmp/amplxe-tmp-azfar/amplxe-res-8103-25348303793181/data.0
+103 [139664092554944] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=DESKTOP-GRRJ2VV
+103 [139664092554944] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0 -Dsun.boot.library.path=/opt/intel/oneapi/vtune/2025.3/lib32/runtime:/opt/intel/oneapi/vtune/2025.3/lib64/runtime
+104 [139664092554944] INFO perfrun.mrte <> - LD_LIBRARY_PATH=/opt/intel/oneapi/vtune/2025.3/lib32/runtime:/opt/intel/oneapi/vtune/2025.3/lib64/runtime:/opt/intel/oneapi/tcm/1.3/lib:/opt/intel/oneapi/umf/0.10/lib:/opt/intel/oneapi/tbb/2022.1/env/../lib/intel64/gcc4.8:/opt/intel/oneapi/pti/0.12/lib:/opt/intel/oneapi/mkl/2025.1/lib:/opt/intel/oneapi/ipp/2022.1/lib:/opt/intel/oneapi/compiler/2025.1/opt/compiler/lib:/opt/intel/oneapi/compiler/2025.1/lib
+104 [139664092554944] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+104 [139664092554944] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+104 [139664092554944] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=/opt/intel/oneapi/vtune/2025.3/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+104 [139664092554944] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+104 [139664092554944] INFO perfrun.mrte <> - Data directory: /tmp/amplxe-tmp-azfar/amplxe-res-8103-25348303793181/data.0
+105 [139664092554944] INFO perfrun.mrte <> - Mrte plugin is initialized
+105 [139664092554944] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+105 [139664092554944] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+105 [139664092554944] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+105 [139664092554944] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+105 [139664092554944] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+106 [139664092554944] INFO perfrun.perfcollector <> - Platform type: 150
+106 [139664092554944] INFO perfrun.sdk <> - Reading value (0) from file: /proc/sys/kernel/perf_event_paranoid
+106 [139664092554944] INFO perfrun.perfcollector <> - checking access to: /opt/intel/oneapi/vtune/2025.3/bin64/amplxe-perf-priv
+106 [139664092554944] INFO perfrun.perfcollector <> - dir found: /sys/bus/event_source/devices/software
+106 [139664092554944] INFO perfrun.perfcollector <> - format: pmu format subdir doesn't exist
+106 [139664092554944] INFO perfrun.perfcollector <> - hwInfo: not set, pmuFam: software
+107 [139664092554944] INFO perfrun.perfcollector <> - pmu added: software, idx: 0
+107 [139664092554944] INFO perfrun.perfcollector <> - dir found: /sys/bus/event_source/devices/uprobe
+107 [139664092554944] INFO perfrun.perfcollector <> - format: ref_ctr_offset: config:32-63, mask:32-63
+108 [139664092554944] INFO perfrun.perfcollector <> - format: retprobe: config:0, mask:0
+108 [139664092554944] INFO perfrun.perfcollector <> - hwInfo: not set, pmuFam: uprobe
+108 [139664092554944] INFO perfrun.perfcollector <> - pmu caps: raw,format
+109 [139664092554944] INFO perfrun.perfcollector <> - pmu added: uprobe, idx: 0
+109 [139664092554944] INFO perfrun.perfcollector <> - dir found: /sys/bus/event_source/devices/cpu
+109 [139664092554944] INFO perfrun.perfcollector <> - format: event: config:0-7, mask:0-7
+109 [139664092554944] INFO perfrun.perfcollector <> - format: pc: config:19, mask:19
+109 [139664092554944] INFO perfrun.perfcollector <> - format: edge: config:18, mask:18
+110 [139664092554944] INFO perfrun.perfcollector <> - format: any: config:21, mask:21
+110 [139664092554944] INFO perfrun.perfcollector <> - format: offcore_rsp: config1:0-63, mask:0-63
+110 [139664092554944] INFO perfrun.perfcollector <> - format: ldlat: config1:0-15, mask:0-15
+110 [139664092554944] INFO perfrun.perfcollector <> - format: inv: config:23, mask:23
+110 [139664092554944] INFO perfrun.perfcollector <> - format: umask: config:8-15, mask:8-15
+110 [139664092554944] INFO perfrun.perfcollector <> - format: frontend: config1:0-23, mask:0-23
+111 [139664092554944] INFO perfrun.perfcollector <> - format: cmask: config:24-31, mask:24-31
+111 [139664092554944] INFO perfrun.perfcollector <> - hwInfo: PERF_CPU_PMU_DETAILS
+111 [139664092554944] INFO perfrun.perfcollector <> - pmu caps: raw,format,events,ldlat,frontend,offcore_rsp
+111 [139664092554944] INFO perfrun.perfcollector <> - pmu added: cpu, idx: 0
+111 [139664092554944] INFO perfrun.perfcollector <> - dir found: /sys/bus/event_source/devices/breakpoint
+112 [139664092554944] INFO perfrun.perfcollector <> - format: pmu format subdir doesn't exist
+112 [139664092554944] INFO perfrun.perfcollector <> - hwInfo: not set, pmuFam: breakpoint
+112 [139664092554944] INFO perfrun.perfcollector <> - pmu added: breakpoint, idx: 0
+112 [139664092554944] INFO perfrun.perfcollector <> - dir found: /sys/bus/event_source/devices/tracepoint
+112 [139664092554944] INFO perfrun.perfcollector <> - format: pmu format subdir doesn't exist
+113 [139664092554944] INFO perfrun.perfcollector <> - hwInfo: not set, pmuFam: tracepoint
+113 [139664092554944] INFO perfrun.perfcollector <> - pmu added: tracepoint, idx: 0
+113 [139664092554944] INFO perfrun.perfcollector <> - dir found: /sys/bus/event_source/devices/kprobe
+113 [139664092554944] INFO perfrun.perfcollector <> - format: retprobe: config:0, mask:0
+113 [139664092554944] INFO perfrun.perfcollector <> - hwInfo: not set, pmuFam: kprobe
+114 [139664092554944] INFO perfrun.perfcollector <> - pmu caps: raw,format
+114 [139664092554944] INFO perfrun.perfcollector <> - pmu added: kprobe, idx: 0
+114 [139664092554944] INFO perfrun.perfcollector <> - dir found: /sys/bus/event_source/devices/msr
+114 [139664092554944] INFO perfrun.perfcollector <> - format: event: config:0-63, mask:0-63
+114 [139664092554944] INFO perfrun.perfcollector <> - hwInfo: not set, pmuFam: msr
+114 [139664092554944] INFO perfrun.perfcollector <> - pmu caps: raw,format,events
+115 [139664092554944] INFO perfrun.perfcollector <> - pmu added: msr, idx: 0
+115 [139664092554944] INFO perfrun.perfcollector <> - Perf tool path: /opt/intel/oneapi/vtune/2025.3/bin64/amplxe-perf
+115 [139664092554944] INFO perfrun.perfcollector <> - Data directory: /tmp/amplxe-tmp-azfar/amplxe-res-8103-25348303793181/data.0
+115 [139664092554944] INFO perfrun.perfcollector <> - Temp directory: /tmp/amplxe-tmp-azfar
+115 [139664092554944] INFO perfrun.perfcollector <> - Perf sync path: /opt/intel/oneapi/vtune/2025.3/bin64/amplxe-perf-sync
+115 [139664092554944] INFO perfrun.perfcollector <> - Hypervisor = Microsoft Hv
+115 [139664092554944] INFO perfrun.perfcollector <> - Counting mode is requested
+116 [139664092554944] INFO perfrun.perfcollector <> - Sample after multiplier: 1
+116 [139664092554944] INFO perfrun.sdk <> - runCmd: /opt/intel/oneapi/vtune/2025.3/bin64/sep -dry-run -sam 1 -ec CPU_CLK_UNHALTED.THREAD,CPU_CLK_UNHALTED.REF_TSC:sample:sa=1800000,INST_RETIRED.ANY:sample:sa=1800000,CPU_CLK_UNHALTED.REF_XCLK,CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE,FP_ARITH_INST_RETIRED.SCALAR_SINGLE,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE,UOPS_EXECUTED.X87,UOPS_RETIRED.RETIRE_SLOTS:sample:sa=2000003,UOPS_EXECUTED.THREAD -experimental
+116 [139664092554944] INFO perfrun.sdk <> - runCmd started PID 8121
+127 [139664092554944] INFO perfrun.perfcollector <> - SepDryRun RC = true
+128 [139664092554944] INFO perfrun.perfcollector <> - Loading SEP event configuration
+128 [139664092554944] INFO perfrun.perfcollector <> - pmu: cpu
+128 [139664092554944] INFO perfrun.perfcollector <> - group_id: 0
+128 [139664092554944] INFO perfrun.perfcollector <> - event_id: 2: INST_RETIRED.ANY
+129 [139664092554944] INFO perfrun.perfcollector <> - event_id: 0: CPU_CLK_UNHALTED.THREAD
+129 [139664092554944] INFO perfrun.perfcollector <> - event_id: 1: CPU_CLK_UNHALTED.REF_TSC
+129 [139664092554944] INFO perfrun.perfcollector <> - event_id: 3: CPU_CLK_UNHALTED.REF_XCLK
+129 [139664092554944] INFO perfrun.perfcollector <> - event_id: 4: CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE
+129 [139664092554944] INFO perfrun.perfcollector <> - event_id: 5: FP_ARITH_INST_RETIRED.SCALAR_SINGLE
+130 [139664092554944] INFO perfrun.perfcollector <> - event_id: 6: FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE
+130 [139664092554944] INFO perfrun.perfcollector <> - event_id: 3: cccr: addr: 186, value: 53013c
+130 [139664092554944] INFO perfrun.perfcollector <> - event_id: 4: cccr: addr: 187, value: 53023c
+130 [139664092554944] INFO perfrun.perfcollector <> - event_id: 5: cccr: addr: 188, value: 5302c7
+130 [139664092554944] INFO perfrun.perfcollector <> - event_id: 6: cccr: addr: 189, value: 5308c7
+130 [139664092554944] INFO perfrun.perfcollector <> - event_id: 2: data: addr: 309, value: ffffffffffe488c0
+131 [139664092554944] INFO perfrun.perfcollector <> - event_id: 0: data: addr: 30a, value: ffffffffffe17b7d
+131 [139664092554944] INFO perfrun.perfcollector <> - event_id: 1: data: addr: 30b, value: ffffffffffe488c0
+131 [139664092554944] INFO perfrun.perfcollector <> - event_id: 3: data: addr: c1, value: ffffffffffff9e55
+131 [139664092554944] INFO perfrun.perfcollector <> - event_id: 4: data: addr: c2, value: ffffffffffff9e55
+131 [139664092554944] INFO perfrun.perfcollector <> - event_id: 5: data: addr: c3, value: ffffffffffe17b7d
+131 [139664092554944] INFO perfrun.perfcollector <> - event_id: 6: data: addr: c4, value: ffffffffffe17b7d
+132 [139664092554944] INFO perfrun.perfcollector <> - group_id: 1
+132 [139664092554944] INFO perfrun.perfcollector <> - event_id: 2: INST_RETIRED.ANY
+132 [139664092554944] INFO perfrun.perfcollector <> - event_id: 0: CPU_CLK_UNHALTED.THREAD
+132 [139664092554944] INFO perfrun.perfcollector <> - event_id: 1: CPU_CLK_UNHALTED.REF_TSC
+132 [139664092554944] INFO perfrun.perfcollector <> - event_id: 7: FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE
+133 [139664092554944] INFO perfrun.perfcollector <> - event_id: 8: FP_ARITH_INST_RETIRED.SCALAR_DOUBLE
+133 [139664092554944] INFO perfrun.perfcollector <> - event_id: 9: FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE
+133 [139664092554944] INFO perfrun.perfcollector <> - event_id: 10: FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE
+133 [139664092554944] INFO perfrun.perfcollector <> - event_id: 7: cccr: addr: 186, value: 5320c7
+133 [139664092554944] INFO perfrun.perfcollector <> - event_id: 8: cccr: addr: 187, value: 5301c7
+133 [139664092554944] INFO perfrun.perfcollector <> - event_id: 9: cccr: addr: 188, value: 5304c7
+133 [139664092554944] INFO perfrun.perfcollector <> - event_id: 10: cccr: addr: 189, value: 5310c7
+134 [139664092554944] INFO perfrun.perfcollector <> - event_id: 2: data: addr: 309, value: ffffffffffe488c0
+134 [139664092554944] INFO perfrun.perfcollector <> - event_id: 0: data: addr: 30a, value: ffffffffffe17b7d
+134 [139664092554944] INFO perfrun.perfcollector <> - event_id: 1: data: addr: 30b, value: ffffffffffe488c0
+134 [139664092554944] INFO perfrun.perfcollector <> - event_id: 7: data: addr: c1, value: ffffffffffe17b7d
+135 [139664092554944] INFO perfrun.perfcollector <> - event_id: 8: data: addr: c2, value: ffffffffffe17b7d
+135 [139664092554944] INFO perfrun.perfcollector <> - event_id: 9: data: addr: c3, value: ffffffffffe17b7d
+135 [139664092554944] INFO perfrun.perfcollector <> - event_id: 10: data: addr: c4, value: ffffffffffe17b7d
+135 [139664092554944] INFO perfrun.perfcollector <> - group_id: 2
+135 [139664092554944] INFO perfrun.perfcollector <> - event_id: 2: INST_RETIRED.ANY
+136 [139664092554944] INFO perfrun.perfcollector <> - event_id: 0: CPU_CLK_UNHALTED.THREAD
+136 [139664092554944] INFO perfrun.perfcollector <> - event_id: 1: CPU_CLK_UNHALTED.REF_TSC
+136 [139664092554944] INFO perfrun.perfcollector <> - event_id: 11: UOPS_EXECUTED.X87
+136 [139664092554944] INFO perfrun.perfcollector <> - event_id: 12: UOPS_RETIRED.RETIRE_SLOTS
+136 [139664092554944] INFO perfrun.perfcollector <> - event_id: 13: UOPS_EXECUTED.THREAD
+137 [139664092554944] INFO perfrun.perfcollector <> - event_id: 11: cccr: addr: 186, value: 5310b1
+137 [139664092554944] INFO perfrun.perfcollector <> - event_id: 12: cccr: addr: 187, value: 5302c2
+137 [139664092554944] INFO perfrun.perfcollector <> - event_id: 13: cccr: addr: 188, value: 5301b1
+137 [139664092554944] INFO perfrun.perfcollector <> - event_id: 2: data: addr: 309, value: ffffffffffe488c0
+137 [139664092554944] INFO perfrun.perfcollector <> - event_id: 0: data: addr: 30a, value: ffffffffffe17b7d
+137 [139664092554944] INFO perfrun.perfcollector <> - event_id: 1: data: addr: 30b, value: ffffffffffe488c0
+138 [139664092554944] INFO perfrun.perfcollector <> - event_id: 11: data: addr: c1, value: ffffffffffe17b7d
+138 [139664092554944] INFO perfrun.perfcollector <> - event_id: 12: data: addr: c2, value: ffffffffffe17b7d
+138 [139664092554944] INFO perfrun.perfcollector <> - event_id: 13: data: addr: c3, value: ffffffffffe17b7d
+138 [139664092554944] INFO perfrun.perfcollector <> - Converting events to Perf format
+139 [139664092554944] INFO perfrun.perfcollector <> - event: 0: CPU_CLK_UNHALTED.THREAD
+139 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: ffffffff, value: 0
+139 [139664092554944] INFO perfrun.perfcollector <> - data: addr: 30a, value: ffffffffffe17b7d
+139 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+139 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+139 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+140 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+140 [139664092554944] INFO perfrun.perfcollector <> - config: event: 3c
+140 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+140 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+140 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+141 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+141 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+141 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 0
+141 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0x3c,name='CPU_CLK_UNHALTED.THREAD'/D
+141 [139664092554944] INFO perfrun.perfcollector <> - event: 1: CPU_CLK_UNHALTED.REF_TSC
+142 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: ffffffff, value: 0
+142 [139664092554944] INFO perfrun.perfcollector <> - data: addr: 30b, value: ffffffffffe488c0
+142 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+142 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+142 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+143 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+143 [139664092554944] INFO perfrun.perfcollector <> - config: event: 0
+143 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+143 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+143 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+143 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+144 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+144 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 3
+144 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/umask=0x3,name='CPU_CLK_UNHALTED.REF_TSC'/D
+144 [139664092554944] INFO perfrun.perfcollector <> - event: 2: INST_RETIRED.ANY
+144 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: ffffffff, value: 0
+145 [139664092554944] INFO perfrun.perfcollector <> - data: addr: 309, value: ffffffffffe488c0
+145 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+145 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+145 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+145 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+146 [139664092554944] INFO perfrun.perfcollector <> - config: event: c0
+146 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+146 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+146 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+146 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+147 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+147 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 0
+147 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0xc0,name='INST_RETIRED.ANY'/D
+147 [139664092554944] INFO perfrun.perfcollector <> - event: 3: CPU_CLK_UNHALTED.REF_XCLK
+147 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: 186, value: 53013c
+148 [139664092554944] INFO perfrun.perfcollector <> - data: addr: c1, value: ffffffffffff9e55
+148 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+148 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+148 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+148 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+148 [139664092554944] INFO perfrun.perfcollector <> - config: event: 3c
+148 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+149 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+149 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+149 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+149 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+149 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 1
+149 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0x3c,umask=0x1,name='CPU_CLK_UNHALTED.REF_XCLK'/
+150 [139664092554944] INFO perfrun.perfcollector <> - event: 4: CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE
+150 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: 187, value: 53023c
+150 [139664092554944] INFO perfrun.perfcollector <> - data: addr: c2, value: ffffffffffff9e55
+150 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+150 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+150 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+151 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+151 [139664092554944] INFO perfrun.perfcollector <> - config: event: 3c
+151 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+151 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+151 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+151 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+152 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+152 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 2
+152 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0x3c,umask=0x2,name='CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE'/
+152 [139664092554944] INFO perfrun.perfcollector <> - event: 5: FP_ARITH_INST_RETIRED.SCALAR_SINGLE
+152 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: 188, value: 5302c7
+152 [139664092554944] INFO perfrun.perfcollector <> - data: addr: c3, value: ffffffffffe17b7d
+152 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+153 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+153 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+153 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+153 [139664092554944] INFO perfrun.perfcollector <> - config: event: c7
+153 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+153 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+154 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+154 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+154 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+154 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 2
+154 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0xc7,umask=0x2,name='FP_ARITH_INST_RETIRED.SCALAR_SINGLE'/
+154 [139664092554944] INFO perfrun.perfcollector <> - event: 6: FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE
+155 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: 189, value: 5308c7
+155 [139664092554944] INFO perfrun.perfcollector <> - data: addr: c4, value: ffffffffffe17b7d
+155 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+155 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+155 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+155 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+156 [139664092554944] INFO perfrun.perfcollector <> - config: event: c7
+156 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+156 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+156 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+156 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+156 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+157 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 8
+157 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0xc7,umask=0x8,name='FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE'/
+157 [139664092554944] INFO perfrun.perfcollector <> - event: 7: FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE
+157 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: 186, value: 5320c7
+157 [139664092554944] INFO perfrun.perfcollector <> - data: addr: c1, value: ffffffffffe17b7d
+157 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+158 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+158 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+158 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+158 [139664092554944] INFO perfrun.perfcollector <> - config: event: c7
+158 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+159 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+159 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+159 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+159 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+159 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 20
+160 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0xc7,umask=0x20,name='FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE'/
+160 [139664092554944] INFO perfrun.perfcollector <> - event: 8: FP_ARITH_INST_RETIRED.SCALAR_DOUBLE
+160 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: 187, value: 5301c7
+160 [139664092554944] INFO perfrun.perfcollector <> - data: addr: c2, value: ffffffffffe17b7d
+160 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+160 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+161 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+161 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+161 [139664092554944] INFO perfrun.perfcollector <> - config: event: c7
+161 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+161 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+162 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+162 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+162 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+162 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 1
+162 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0xc7,umask=0x1,name='FP_ARITH_INST_RETIRED.SCALAR_DOUBLE'/
+163 [139664092554944] INFO perfrun.perfcollector <> - event: 9: FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE
+163 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: 188, value: 5304c7
+163 [139664092554944] INFO perfrun.perfcollector <> - data: addr: c3, value: ffffffffffe17b7d
+163 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+163 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+163 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+163 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+164 [139664092554944] INFO perfrun.perfcollector <> - config: event: c7
+164 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+164 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+164 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+164 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+165 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+165 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 4
+165 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0xc7,umask=0x4,name='FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE'/
+165 [139664092554944] INFO perfrun.perfcollector <> - event: 10: FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE
+165 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: 189, value: 5310c7
+166 [139664092554944] INFO perfrun.perfcollector <> - data: addr: c4, value: ffffffffffe17b7d
+166 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+166 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+166 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+166 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+167 [139664092554944] INFO perfrun.perfcollector <> - config: event: c7
+167 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+167 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+167 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+167 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+168 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+168 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 10
+168 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0xc7,umask=0x10,name='FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE'/
+168 [139664092554944] INFO perfrun.perfcollector <> - event: 11: UOPS_EXECUTED.X87
+168 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: 186, value: 5310b1
+169 [139664092554944] INFO perfrun.perfcollector <> - data: addr: c1, value: ffffffffffe17b7d
+169 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+169 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+169 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+169 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+169 [139664092554944] INFO perfrun.perfcollector <> - config: event: b1
+170 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+170 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+170 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+170 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+170 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+171 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 10
+171 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0xb1,umask=0x10,name='UOPS_EXECUTED.X87'/
+171 [139664092554944] INFO perfrun.perfcollector <> - event: 12: UOPS_RETIRED.RETIRE_SLOTS
+171 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: 187, value: 5302c2
+171 [139664092554944] INFO perfrun.perfcollector <> - data: addr: c2, value: ffffffffffe17b7d
+171 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+172 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+172 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+172 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+172 [139664092554944] INFO perfrun.perfcollector <> - config: event: c2
+172 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+172 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+173 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+173 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+173 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+173 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 2
+173 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0xc2,umask=0x2,name='UOPS_RETIRED.RETIRE_SLOTS'/
+174 [139664092554944] INFO perfrun.perfcollector <> - event: 13: UOPS_EXECUTED.THREAD
+174 [139664092554944] INFO perfrun.perfcollector <> - cccr: addr: 188, value: 5301b1
+174 [139664092554944] INFO perfrun.perfcollector <> - data: addr: c3, value: ffffffffffe17b7d
+174 [139664092554944] INFO perfrun.perfcollector <> - pmu config: cpu
+174 [139664092554944] INFO perfrun.perfcollector <> - config: any: 0
+175 [139664092554944] INFO perfrun.perfcollector <> - config: cmask: 0
+175 [139664092554944] INFO perfrun.perfcollector <> - config: edge: 0
+175 [139664092554944] INFO perfrun.perfcollector <> - config: event: b1
+175 [139664092554944] INFO perfrun.perfcollector <> - config1: frontend: 0
+175 [139664092554944] INFO perfrun.perfcollector <> - config: inv: 0
+176 [139664092554944] INFO perfrun.perfcollector <> - config1: ldlat: 0
+176 [139664092554944] INFO perfrun.perfcollector <> - config1: offcore_rsp: 0
+176 [139664092554944] INFO perfrun.perfcollector <> - config: pc: 0
+176 [139664092554944] INFO perfrun.perfcollector <> - config: umask: 1
+176 [139664092554944] INFO perfrun.perfcollector <> - format: cpu/event=0xb1,umask=0x1,name='UOPS_EXECUTED.THREAD'/
+177 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0x3c,name='CPU_CLK_UNHALTED.THREAD'/Duk, added for counting
+177 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/umask=0x3,name='CPU_CLK_UNHALTED.REF_TSC'/Duk, added for counting
+177 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0xc0,name='INST_RETIRED.ANY'/Duk, added for counting
+177 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0x3c,umask=0x1,name='CPU_CLK_UNHALTED.REF_XCLK'/uk, added for counting
+177 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0x3c,umask=0x2,name='CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE'/uk, added for counting
+177 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0xc7,umask=0x2,name='FP_ARITH_INST_RETIRED.SCALAR_SINGLE'/uk, added for counting
+178 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0xc7,umask=0x8,name='FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE'/uk, added for counting
+178 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0xc7,umask=0x20,name='FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE'/uk, added for counting
+178 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0xc7,umask=0x1,name='FP_ARITH_INST_RETIRED.SCALAR_DOUBLE'/uk, added for counting
+178 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0xc7,umask=0x4,name='FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE'/uk, added for counting
+179 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0xc7,umask=0x10,name='FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE'/uk, added for counting
+179 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0xb1,umask=0x10,name='UOPS_EXECUTED.X87'/uk, added for counting
+179 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0xc2,umask=0x2,name='UOPS_RETIRED.RETIRE_SLOTS'/uk, added for counting
+179 [139664092554944] INFO perfrun.perfcollector <> - event: cpu/event=0xb1,umask=0x1,name='UOPS_EXECUTED.THREAD'/uk, added for counting
+179 [139664092554944] INFO perfrun.perfcollector <> - attaching to pid: 4294967295, m_mode: 10, mode: 3
+180 [139664014964416] INFO perfrun.perfcollector <> - Perf stat trace pipe capacity: read = 1048576, write = 1048576
+180 [139664006571712] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu0/topology/core_siblings_list
+181 [139664006571712] INFO perfrun.sdk <> - Reading value (0-1) from file: /sys/devices/system/cpu/cpu0/topology/thread_siblings_list
+181 [139664006571712] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu1/topology/core_siblings_list
+181 [139664006571712] INFO perfrun.sdk <> - Reading value (0-1) from file: /sys/devices/system/cpu/cpu1/topology/thread_siblings_list
+181 [139664006571712] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu2/topology/core_siblings_list
+182 [139664006571712] INFO perfrun.sdk <> - Reading value (2-3) from file: /sys/devices/system/cpu/cpu2/topology/thread_siblings_list
+182 [139664006571712] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu3/topology/core_siblings_list
+182 [139664006571712] INFO perfrun.sdk <> - Reading value (2-3) from file: /sys/devices/system/cpu/cpu3/topology/thread_siblings_list
+182 [139664006571712] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu4/topology/core_siblings_list
+182 [139664006571712] INFO perfrun.sdk <> - Reading value (4-5) from file: /sys/devices/system/cpu/cpu4/topology/thread_siblings_list
+183 [139664006571712] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu5/topology/core_siblings_list
+183 [139664006571712] INFO perfrun.sdk <> - Reading value (4-5) from file: /sys/devices/system/cpu/cpu5/topology/thread_siblings_list
+183 [139664006571712] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu6/topology/core_siblings_list
+183 [139664006571712] INFO perfrun.sdk <> - Reading value (6-7) from file: /sys/devices/system/cpu/cpu6/topology/thread_siblings_list
+183 [139664006571712] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu7/topology/core_siblings_list
+184 [139664006571712] INFO perfrun.sdk <> - Reading value (6-7) from file: /sys/devices/system/cpu/cpu7/topology/thread_siblings_list
+184 [139664006571712] ERROR perfrun.sdk <> - boost::filesystem::exists(filename) 'gh2::error::IsNot.Valid.File(filename):/sys/bus/event_source/devices/cpu_core/cpus'
+_sdks/release_posix-x86_64_icx_2023.0.0_gnutools_9.2_binutils_2.28/perfrun_1.36.3/include/perfrun1/sdk/utils.hpp(777): gh2::error_code_t runtool::sdk::loadFileValue(RetType &, const cpil2::uchar_t *) [RetType = std::basic_string<char>]
+, at file: _sdks/release_posix-x86_64_icx_2023.0.0_gnutools_9.2_binutils_2.28/perfrun_1.36.3/include/perfrun1/sdk/utils.hpp:777
+184 [139664006571712] ERROR perfrun.sdk <> - boost::filesystem::exists(filename) 'gh2::error::IsNot.Valid.File(filename):/sys/bus/event_source/devices/cpu_atom/cpus'
+_sdks/release_posix-x86_64_icx_2023.0.0_gnutools_9.2_binutils_2.28/perfrun_1.36.3/include/perfrun1/sdk/utils.hpp(777): gh2::error_code_t runtool::sdk::loadFileValue(RetType &, const cpil2::uchar_t *) [RetType = std::basic_string<char>]
+, at file: _sdks/release_posix-x86_64_icx_2023.0.0_gnutools_9.2_binutils_2.28/perfrun_1.36.3/include/perfrun1/sdk/utils.hpp:777
+185 [139664014964416] INFO perfrun.sdk <> - runCmd: /opt/intel/oneapi/vtune/2025.3/bin64/amplxe-perf stat -v --log-fd 11 --scale -x ; -e cpu/event=0x3c,name='CPU_CLK_UNHALTED.THREAD'/Duk,cpu/umask=0x3,name='CPU_CLK_UNHALTED.REF_TSC'/Duk,cpu/event=0xc0,name='INST_RETIRED.ANY'/Duk,cpu/event=0x3c,umask=0x1,name='CPU_CLK_UNHALTED.REF_XCLK'/uk,cpu/event=0x3c,umask=0x2,name='CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE'/uk,cpu/event=0xc7,umask=0x2,name='FP_ARITH_INST_RETIRED.SCALAR_SINGLE'/uk,cpu/event=0xc7,umask=0x8,name='FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE'/uk,cpu/event=0xc7,umask=0x20,name='FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE'/uk,cpu/event=0xc7,umask=0x1,name='FP_ARITH_INST_RETIRED.SCALAR_DOUBLE'/uk,cpu/event=0xc7,umask=0x4,name='FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE'/uk,cpu/event=0xc7,umask=0x10,name='FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE'/uk,cpu/event=0xb1,umask=0x10,name='UOPS_EXECUTED.X87'/uk,cpu/event=0xc2,umask=0x2,name='UOPS_RETIRED.RETIRE_SLOTS'/uk,cpu/event=0xb1,umask=0x1,name='UOPS_EXECUTED.THREAD'/uk /opt/intel/oneapi/vtune/2025.3/bin64/amplxe-perf-sync dryrun tsc
+185 [139664014964416] INFO perfrun.sdk <> - runCmd started PID 8129
+203 [139664014964416] INFO perfrun.perfcollector <> - Monitor: runCmd RC = true
+204 [139664092554944] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+204 [139664092554944] INFO perfrun.tpss <> - initialize tpss controller
+204 [139664092554944] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+204 [139664092554944] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+205 [139664092554944] INFO perfrun.tpss <> - default obj-size-min=1024
+205 [139664092554944] INFO perfrun.tpss <> - default hash-table-size=0
+205 [139664092554944] INFO perfrun.launcher <> - plugin [media] was disabled because it doesn't support the given collection type.
+205 [139664092554944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+205 [139664092554944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+206 [139664092554944] INFO perfrun.launcher <> - plugin [parallelfs] was disabled because it doesn't support the given collection type.
+206 [139664092554944] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+206 [139664092554944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+206 [139664092554944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+206 [139664092554944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+207 [139664092554944] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+207 [139664092554944] INFO perfrun.launcher <> - plugin [stall_reasons] was disabled because it doesn't support the given collection type.
+207 [139664248155264] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /opt/intel/oneapi/vtune/2025.3/lib32/runtime:/opt/intel/oneapi/vtune/2025.3/lib64/runtime:/opt/intel/oneapi/tcm/1.3/lib:/opt/intel/oneapi/umf/0.10/lib:/opt/intel/oneapi/tbb/2022.1/env/../lib/intel64/gcc4.8:/opt/intel/oneapi/pti/0.12/lib:/opt/intel/oneapi/mkl/2025.1/lib:/opt/intel/oneapi/ipp/2022.1/lib:/opt/intel/oneapi/compiler/2025.1/opt/compiler/lib:/opt/intel/oneapi/compiler/2025.1/lib
+208 [139664248155264] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /opt/intel/oneapi/vtune/2025.3/lib32/runtime/libittnotify_collector.so
+208 [139664248155264] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /opt/intel/oneapi/vtune/2025.3/lib64/runtime/libittnotify_collector.so
+208 [139664248155264] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+208 [139664248155264] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /opt/intel/oneapi/vtune/2025.3/lib32/runtime/libittnotify_collector.so
+209 [139664248155264] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /opt/intel/oneapi/vtune/2025.3/lib64/runtime/libittnotify_collector.so
+209 [139664248155264] INFO perfrun.launcher <> - set environment variable: CCL_ITT_LEVEL = 1
+209 [139664248155264] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+209 [139664248155264] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+210 [139664248155264] INFO perfrun.launcher <> - set environment variable: LD_PRELOAD = libittnotify_collector.so:
+210 [139664248155264] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+210 [139664248155264] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+211 [139664248155264] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /tmp/amplxe-tmp-azfar/amplxe-res-8103-25348303793181/data.0
+211 [139664248155264] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = DESKTOP-GRRJ2VV
+211 [139664248155264] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0 -Dsun.boot.library.path=/opt/intel/oneapi/vtune/2025.3/lib32/runtime:/opt/intel/oneapi/vtune/2025.3/lib64/runtime
+212 [139664248155264] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /opt/intel/oneapi/vtune/2025.3/lib32/runtime:/opt/intel/oneapi/vtune/2025.3/lib64/runtime:/opt/intel/oneapi/tcm/1.3/lib:/opt/intel/oneapi/umf/0.10/lib:/opt/intel/oneapi/tbb/2022.1/env/../lib/intel64/gcc4.8:/opt/intel/oneapi/pti/0.12/lib:/opt/intel/oneapi/mkl/2025.1/lib:/opt/intel/oneapi/ipp/2022.1/lib:/opt/intel/oneapi/compiler/2025.1/opt/compiler/lib:/opt/intel/oneapi/compiler/2025.1/lib
+212 [139664248155264] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+212 [139664248155264] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+212 [139664248155264] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = /opt/intel/oneapi/vtune/2025.3/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+213 [139664248155264] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+213 [139664248155264] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+215 [139664248155264] INFO perfrun.launcher <> - Launcher: command line to start before modification = ./test1 changes.txt 0
+216 [139664248155264] INFO perfrun.launcher <> - Launcher: command line to start after modification = /opt/intel/oneapi/vtune/2025.3/bin64/pin -error_file /tmp/amplxe-tmp-azfar/amplxe-res-8103-25348303793181/data.0/pinerr.tpsslog -detach_reattach -follow_execv -tool_load_option deepbind -t64 /opt/intel/oneapi/vtune/2025.3/lib64/libtpsstool.so -t /opt/intel/oneapi/vtune/2025.3/lib32/libtpsstool.so -server_name tpss_ipc.8103 -prd_dir /opt/intel/oneapi/vtune/2025.3 -- ./test1 changes.txt 0
+216 [139664248155264] INFO perfrun.launcher <> - ProcessCreator object was created
+217 [139664248155264] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+218 [139664092554944] WARN perfrun.system <> - Could not do anything with /sys/kernel/debug/kvm: boost::filesystem::status: Permission denied [system:13]: "/sys/kernel/debug/kvm", at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:787
+219 [139664092554944] WARN perfrun.system <> - Folder "/var/run/libvirt/qemu/"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:800
+220 [139664092554944] WARN perfrun.sdk <> - Failed to find xl binary on any of the system paths: /bin, /sbin, /usr/bin, /usr/sbin., at file: vcs/perfrun1/sdk/src/utils.cpp:205
+220 [139664092554944] WARN perfrun.system <> - Could not start ContainerMapping collector, at file: vcs/perfrun1/plugins/system/src/controller.cpp:450
+223 [139664092554944] INFO perfrun.vdso <> - Helper runtool '/opt/intel/oneapi/vtune/2025.3/bin32/amplxe-runss -dump-vdso -r /tmp/amplxe-tmp-azfar/amplxe-res-8103-25348303793181 --tmp-dir /tmp/amplxe-tmp-azfar' returned 1
+296 [139664092554944] INFO perfrun.vdso <> - Helper runtool '/opt/intel/oneapi/vtune/2025.3/bin64/amplxe-runss -dump-vdso -r /tmp/amplxe-tmp-azfar/amplxe-res-8103-25348303793181 --tmp-dir /tmp/amplxe-tmp-azfar' returned 0
+296 [139664092554944] INFO perfrun.itt <> - start itt controller for pid #8143
+296 [139664092554944] INFO perfrun.perfcollector <> - attaching to pid: 8143, m_mode: 10, mode: 11
+297 [139663989786304] INFO perfrun.perfcollector <> - Perf stat trace pipe capacity: read = 1048576, write = 1048576
+297 [139664014964416] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu0/topology/core_siblings_list
+297 [139664014964416] INFO perfrun.sdk <> - Reading value (0-1) from file: /sys/devices/system/cpu/cpu0/topology/thread_siblings_list
+297 [139664014964416] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu1/topology/core_siblings_list
+298 [139664014964416] INFO perfrun.sdk <> - Reading value (0-1) from file: /sys/devices/system/cpu/cpu1/topology/thread_siblings_list
+298 [139664014964416] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu2/topology/core_siblings_list
+298 [139664014964416] INFO perfrun.sdk <> - Reading value (2-3) from file: /sys/devices/system/cpu/cpu2/topology/thread_siblings_list
+298 [139664014964416] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu3/topology/core_siblings_list
+298 [139664014964416] INFO perfrun.sdk <> - Reading value (2-3) from file: /sys/devices/system/cpu/cpu3/topology/thread_siblings_list
+298 [139664014964416] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu4/topology/core_siblings_list
+298 [139664014964416] INFO perfrun.sdk <> - Reading value (4-5) from file: /sys/devices/system/cpu/cpu4/topology/thread_siblings_list
+298 [139664014964416] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu5/topology/core_siblings_list
+299 [139664014964416] INFO perfrun.sdk <> - Reading value (4-5) from file: /sys/devices/system/cpu/cpu5/topology/thread_siblings_list
+299 [139664014964416] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu6/topology/core_siblings_list
+299 [139664014964416] INFO perfrun.sdk <> - Reading value (6-7) from file: /sys/devices/system/cpu/cpu6/topology/thread_siblings_list
+299 [139664014964416] INFO perfrun.sdk <> - Reading value (0-7) from file: /sys/devices/system/cpu/cpu7/topology/core_siblings_list
+299 [139664014964416] INFO perfrun.sdk <> - Reading value (6-7) from file: /sys/devices/system/cpu/cpu7/topology/thread_siblings_list
+299 [139664014964416] ERROR perfrun.sdk <> - boost::filesystem::exists(filename) 'gh2::error::IsNot.Valid.File(filename):/sys/bus/event_source/devices/cpu_core/cpus'
+_sdks/release_posix-x86_64_icx_2023.0.0_gnutools_9.2_binutils_2.28/perfrun_1.36.3/include/perfrun1/sdk/utils.hpp(777): gh2::error_code_t runtool::sdk::loadFileValue(RetType &, const cpil2::uchar_t *) [RetType = std::basic_string<char>]
+, at file: _sdks/release_posix-x86_64_icx_2023.0.0_gnutools_9.2_binutils_2.28/perfrun_1.36.3/include/perfrun1/sdk/utils.hpp:777
+299 [139664014964416] ERROR perfrun.sdk <> - boost::filesystem::exists(filename) 'gh2::error::IsNot.Valid.File(filename):/sys/bus/event_source/devices/cpu_atom/cpus'
+_sdks/release_posix-x86_64_icx_2023.0.0_gnutools_9.2_binutils_2.28/perfrun_1.36.3/include/perfrun1/sdk/utils.hpp(777): gh2::error_code_t runtool::sdk::loadFileValue(RetType &, const cpil2::uchar_t *) [RetType = std::basic_string<char>]
+, at file: _sdks/release_posix-x86_64_icx_2023.0.0_gnutools_9.2_binutils_2.28/perfrun_1.36.3/include/perfrun1/sdk/utils.hpp:777
+300 [139663989786304] INFO perfrun.sdk <> - runCmd: /opt/intel/oneapi/vtune/2025.3/bin64/amplxe-perf stat -v --log-fd 22 --control=fd:23,26 --scale -x ; -p 8143 -e cpu/event=0x3c,name='CPU_CLK_UNHALTED.THREAD'/Duk,cpu/umask=0x3,name='CPU_CLK_UNHALTED.REF_TSC'/Duk,cpu/event=0xc0,name='INST_RETIRED.ANY'/Duk,cpu/event=0x3c,umask=0x1,name='CPU_CLK_UNHALTED.REF_XCLK'/uk,cpu/event=0x3c,umask=0x2,name='CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE'/uk,cpu/event=0xc7,umask=0x2,name='FP_ARITH_INST_RETIRED.SCALAR_SINGLE'/uk,cpu/event=0xc7,umask=0x8,name='FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE'/uk,cpu/event=0xc7,umask=0x20,name='FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE'/uk,cpu/event=0xc7,umask=0x1,name='FP_ARITH_INST_RETIRED.SCALAR_DOUBLE'/uk,cpu/event=0xc7,umask=0x4,name='FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE'/uk,cpu/event=0xc7,umask=0x10,name='FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE'/uk,cpu/event=0xb1,umask=0x10,name='UOPS_EXECUTED.X87'/uk,cpu/event=0xc2,umask=0x2,name='UOPS_RETIRED.RETIRE_SLOTS'/uk,cpu/event=0xb1,umask=0x1,name='UOPS_EXECUTED.THREAD'/uk /opt/intel/oneapi/vtune/2025.3/bin64/amplxe-perf-sync sync tsc
+300 [139663989786304] INFO perfrun.sdk <> - runCmd started PID 8153
+310 [139664092554944] INFO perfrun.tpss <> - start tpss controller for pid #8143
+362 [139664248155264] INFO perfrun.launcher <> - Launcher: all plugins were started
+363 [139664248155264] INFO perfrun.launcher <> - DirectoryMonitor object was created
+364 [139664248155264] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+365 [139664248155264] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+367 [139664248155264] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+369 [139664248155264] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+394 [139664248155264] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+7535 [139664248155264] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+7728 [139664248155264] WARN perfrun.sdk <> - Exception (filesystem::recursive_directory_iterator increment error: No such file or directory [system:2]) while iterating directory: /mnt/d/Semester 6/pdc/pdc_project/i221033_i220950_A_PDC_Project/vtune_hotspots416.DESKTOP-GRRJ2VV, at file: vcs/perfrun1/sdk/src/utils.cpp:295
+7738 [139664092554944] INFO perfrun.itt <> - detach itt controller
+7739 [139664092554944] INFO perfrun.itt <> - detach itt controller done
+7741 [139663989786304] INFO perfrun.perfcollector <> - Monitor: runCmd RC = true
+7742 [139664092554944] INFO perfrun.perfcollector <> - Monitor: state = 3, error = 1
+7742 [139664092554944] INFO perfrun.tpss <> - stop tpss controller
+7743 [139664092554944] INFO perfrun.sdk <> - De-allocating TMU: /tmp/amplxe-tmp-azfar/amplxe-res-8103-25348303793181/data.0/systemcollector-8103-DESKTOP-GRRJ2VV.sc
+7743 [139664092554944] INFO perfrun.system <> - closed the system trace file: /tmp/amplxe-tmp-azfar/amplxe-res-8103-25348303793181/data.0/systemcollector-8103-DESKTOP-GRRJ2VV.sc
+7744 [139664248155264] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+7744 [139664248155264] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+7745 [139664248155264] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+7745 [139664248155264] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+7746 [139664248155264] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:226
+9079 [139664248155264] INFO perfrun.launcher <> - Application exit code: 0
+9079 [139664248155264] INFO perfrun.launcher <> - Exit code: 0

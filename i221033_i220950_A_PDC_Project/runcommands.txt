@@ -1,0 +1,19 @@
+step 1 open partition.cpp  , in int main , find " npart " change it to number of partitions we wanna make 2,4,6,8
+then run :
+g++ -o partition partition.cpp -lmetis
+./partition
+
+step2
+mpicxx -fopenmp -o test hybrid.cpp
+
+( change threads 2,4,6,8 ) and -np 2,4,6,8 ( according to the number of partitions we made in partition.cpp )
+mpirun -np 2 ./f changes.txt 1
+
+
+
+
+OMP_NUM_THREADS=4 mpirun -np 2 ./test changes.txt 0
+
+
+
+

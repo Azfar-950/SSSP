@@ -1,0 +1,88 @@
+[Rank 1] Removed edge 0->3
+[Rank 1] Added edge 6->8 (weight 1)
+[Rank 1] Added edge 5->8 (weight 4)
+[Rank 1] Local graph edges after changes:
+[Rank 1] Edge 0->2 (weight 9)
+[Rank 1] Edge 0->8 (weight 4)
+[Rank 1] Edge 2->0 (weight 9)
+[Rank 1] Edge 2->1 (weight 2)
+[Rank 1] Edge 3->5 (weight 8)
+[Rank 1] Edge 3->4 (weight 1)
+[Rank 1] Edge 3->9 (weight 1)
+[Rank 1] Edge 7->9 (weight 1)
+[Rank 1] Edge 7->8 (weight 2)
+[Rank 1] Edge 8->7 (weight 2)
+[Rank 1] Edge 8->0 (weight 4)
+[Rank 1] Edge 8->6 (weight 1)
+[Rank 1] Edge 8->5 (weight 4)
+[Rank 1] Graph distribution completed: 5 local vertices, 5 ghost vertices, 10 global vertices.
+[Rank 1] SSSP initialization complete. Local vertices: 0 2 3 7 8 
+[Rank 1] Initial ghost distances: 1:INF 4:INF 5:INF 6:INF 9:0 
+[Rank 1] Removed edge 0->3
+[Rank 1] Removed edge 0->3
+[Rank 1] Added edge 6->8 (weight 1)
+[Rank 1] Removed edge 0->3
+[Rank 1] Added edge 6->8 (weight 1)
+[Rank 1] Added edge 5->8 (weight 4)
+[Rank 1] Local graph edges after applying changes:
+[Rank 1] Edge 0->2 (weight 9)
+[Rank 1] Edge 0->8 (weight 4)
+[Rank 1] Edge 1->2 (weight 2)
+[Rank 1] Edge 2->0 (weight 9)
+[Rank 1] Edge 2->1 (weight 2)
+[Rank 1] Edge 3->5 (weight 8)
+[Rank 1] Edge 3->4 (weight 1)
+[Rank 1] Edge 3->9 (weight 1)
+[Rank 1] Edge 4->3 (weight 1)
+[Rank 1] Edge 5->3 (weight 8)
+[Rank 1] Edge 5->8 (weight 4)
+[Rank 1] Edge 6->8 (weight 1)
+[Rank 1] Edge 7->9 (weight 1)
+[Rank 1] Edge 7->8 (weight 2)
+[Rank 1] Edge 8->7 (weight 2)
+[Rank 1] Edge 8->0 (weight 4)
+[Rank 1] Edge 8->6 (weight 1)
+[Rank 1] Edge 8->5 (weight 4)
+[Rank 1] Edge 9->7 (weight 1)
+[Rank 1] Edge 9->3 (weight 1)
+[Rank 1] Applied relevant changes.
+[Rank 1] Relax 9->3: Dist[3] updated to 1
+[Rank 1] Updated ghost distance for vertex 5 to 9
+[Rank 1] Updated ghost distance for vertex 4 to 2
+[Rank 1] Relax 9->7: Dist[7] updated to 1
+[Rank 1] Relax 7->8: Dist[8] updated to 3
+[Rank 1] Sending GHOST_UPDATE for vertex 3 to rank 0
+[Rank 1] Sending GHOST_UPDATE for vertex 7 to rank 0
+[Rank 1] Sending GHOST_UPDATE for vertex 8 to rank 0
+[Rank 1] Distances: 0:INF 2:INF 3:1 7:1 8:3 
+[Rank 1] Ghost distances: 1:INF 4:2 5:9 6:INF 9:0 
+[Rank 1] Affected vertices: 3 4 5 7 8 
+[Rank 1] local_change: YES, ghost_change: NO
+[Rank 1] Iteration 1 completed. Global change: YES, total_change: 1
+[Rank 1] Received GHOST_UPDATE for vertex 5 from rank 0
+[Rank 1] Updated ghost distance for vertex 5 to 5
+[Rank 1] Received GHOST_UPDATE for vertex 1 from rank 0
+[Rank 1] Updated ghost distance for vertex 1 to 9
+[Rank 1] Received GHOST_UPDATE for vertex 6 from rank 0
+[Rank 1] Updated ghost distance for vertex 6 to 7
+[Rank 1] Received GHOST_UPDATE for vertex 4 from rank 0
+[Rank 1] Relax 8->0: Dist[0] updated to 7
+[Rank 1] Relax 0->2: Dist[2] updated to 16
+[Rank 1] Updated ghost distance for vertex 6 to 4
+[Rank 1] Relax 0->2: Dist[2] updated to 16
+[Rank 1] Relax 1->2: Dist[2] updated to 11
+[Rank 1] Sending GHOST_UPDATE for vertex 0 to rank 0
+[Rank 1] Sending GHOST_UPDATE for vertex 2 to rank 0
+[Rank 1] Distances: 0:7 2:11 3:1 7:1 8:3 
+[Rank 1] Ghost distances: 1:9 4:2 5:5 6:4 9:0 
+[Rank 1] Affected vertices: 0 2 6 8 
+[Rank 1] local_change: YES, ghost_change: YES
+[Rank 1] Iteration 2 completed. Global change: YES, total_change: 1
+[Rank 1] Received GHOST_UPDATE for vertex 4 from rank 0
+[Rank 1] Received GHOST_UPDATE for vertex 6 from rank 0
+[Rank 1] Distances: 0:7 2:11 3:1 7:1 8:3 
+[Rank 1] Ghost distances: 1:9 4:2 5:5 6:4 9:0 
+[Rank 1] Affected vertices: 
+[Rank 1] local_change: NO, ghost_change: NO
+[Rank 1] Iteration 3 completed. Global change: NO, total_change: 0
+[Rank 1] Final ghost distances: 1:9 4:2 5:5 6:4 9:0 

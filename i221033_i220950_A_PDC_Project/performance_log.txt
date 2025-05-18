@@ -1,0 +1,93 @@
+MPI ONLY !!
+
+//nodes 143 edges 1800
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 0.113062
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 0.26173
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 0.162084
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 0.244739
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 0.213903
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 0.199244
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 0.185275
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 0.0879566
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 0.181145
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 0.127635
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 0.0885905
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 0.221048
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 0.0910875
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 0.168821
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 0.19326
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 0.0887353
+//nodes 5k edges 50k
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 52.7095
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 50.3881
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 51.5822
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 44.0563
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 48.2339
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 207.379
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 122.284
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 17.6406
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 21.1391
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 24.9001
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 45.7797
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 29.3603
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 29.9256
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 30.337
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 30.1931
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 16.7036
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 19.5606
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 18.4914
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 18.5623
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 19.5002
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 18.6075
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 18.6678
+
+
+HYBRID Times !!!
+//nodes 5k edges 50k
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 15.0552
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 14.4884
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 9.66231
+MPI Processes: 2, OpenMP Threads: 4, Execution Time (s): 9.92076
+MPI Processes: 2, OpenMP Threads: 8, Execution Time (s): 9.64219
+MPI Processes: 2, OpenMP Threads: 8, Execution Time (s): 10.923
+MPI Processes: 2, OpenMP Threads: 8, Execution Time (s): 11.119
+MPI Processes: 2, OpenMP Threads: 12, Execution Time (s): 10.5725
+MPI Processes: 2, OpenMP Threads: 12, Execution Time (s): 9.28542
+MPI Processes: 2, OpenMP Threads: 12, Execution Time (s): 9.464
+MPI Processes: 2, OpenMP Threads: 12, Execution Time (s): 9.36636
+MPI Processes: 2, OpenMP Threads: 16, Execution Time (s): 9.62895
+MPI Processes: 2, OpenMP Threads: 16, Execution Time (s): 9.94187
+MPI Processes: 2, OpenMP Threads: 16, Execution Time (s): 10.9
+MPI Processes: 2, OpenMP Threads: 16, Execution Time (s): 11.0377
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 5.61193
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 6.32702
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 6.06848
+MPI Processes: 3, OpenMP Threads: 4, Execution Time (s): 6.37174
+MPI Processes: 3, OpenMP Threads: 8, Execution Time (s): 4.85005
+MPI Processes: 3, OpenMP Threads: 8, Execution Time (s): 6.6996
+MPI Processes: 3, OpenMP Threads: 8, Execution Time (s): 7.4172
+MPI Processes: 3, OpenMP Threads: 8, Execution Time (s): 6.0281
+MPI Processes: 3, OpenMP Threads: 12, Execution Time (s): 5.1931
+MPI Processes: 3, OpenMP Threads: 12, Execution Time (s): 4.82219
+MPI Processes: 3, OpenMP Threads: 12, Execution Time (s): 5.2205
+MPI Processes: 3, OpenMP Threads: 12, Execution Time (s): 6.32359
+MPI Processes: 3, OpenMP Threads: 16, Execution Time (s): 6.46639
+MPI Processes: 3, OpenMP Threads: 16, Execution Time (s): 6.03765
+MPI Processes: 3, OpenMP Threads: 16, Execution Time (s): 7.47342
+MPI Processes: 3, OpenMP Threads: 16, Execution Time (s): 4.87668
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 5.10299
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 4.46472
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 4.74874
+MPI Processes: 4, OpenMP Threads: 4, Execution Time (s): 5.39126
+MPI Processes: 4, OpenMP Threads: 8, Execution Time (s): 5.43369
+MPI Processes: 4, OpenMP Threads: 8, Execution Time (s): 5.98729
+MPI Processes: 4, OpenMP Threads: 8, Execution Time (s): 6.90861
+MPI Processes: 4, OpenMP Threads: 8, Execution Time (s): 4.74209
+MPI Processes: 4, OpenMP Threads: 12, Execution Time (s): 5.07212
+MPI Processes: 4, OpenMP Threads: 12, Execution Time (s): 5.17871
+MPI Processes: 4, OpenMP Threads: 12, Execution Time (s): 5.90005
+MPI Processes: 4, OpenMP Threads: 12, Execution Time (s): 5.0766
+MPI Processes: 4, OpenMP Threads: 16, Execution Time (s): 4.77393
+MPI Processes: 4, OpenMP Threads: 16, Execution Time (s): 5.53244
+MPI Processes: 4, OpenMP Threads: 16, Execution Time (s): 5.01394
+MPI Processes: 4, OpenMP Threads: 16, Execution Time (s): 6.93083

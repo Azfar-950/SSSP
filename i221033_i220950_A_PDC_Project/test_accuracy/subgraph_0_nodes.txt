@@ -1,0 +1,10 @@
+# Local nodes
+1
+4
+5
+6
+9
+# Ghost nodes
+2
+3
+7
